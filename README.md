@@ -15,7 +15,7 @@ by Zoran Alagjozovski
 - [Seeding tables with test data](https://laravel.com/docs/7.x/seeding#writing-seeders)
 
 ##
-Application expects mysql database named "db" to be found on localhost and have functional seeder for populating the table "contacts" with fake data for testing purposes.
+Application expects mysql database named "db_crud" to be found on localhost and have functional seeder for populating the table "contacts" with fake data for testing purposes.
 For initialising the application tables and pupulating them with test data, it is recommended to use command: 
 
 - php artisan migrate:fresh --seed 
