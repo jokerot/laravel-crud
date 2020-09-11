@@ -81,7 +81,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Sample Laravel CRUD app
+                    Laravel Sample CRUD app
+                    <p><small>Contacts managing</small></p>
                 </div>
 
 {{--                <div class="links">--}}

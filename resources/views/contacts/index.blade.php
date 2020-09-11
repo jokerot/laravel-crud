@@ -17,7 +17,7 @@
                 <thead>
                 <tr>
                     <td><a href="/contacts?orderBy=ID">ID</a></td>
-                    <td><a href="/contacts?orderBy=last_name">Name</a></td>
+                    <td><a href="/contacts?orderBy=first_name">Name</a></td>
                     <td><a href="/contacts?orderBy=email">Email</a></td>
                     <td><a href="/contacts?orderBy=job_title">Job Title</a></td>
                     <td><a href="/contacts?orderBy=city">City</a></td>
