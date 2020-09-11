@@ -13,3 +13,11 @@ by Zoran Alagjozovski
 - [Resource Controllers (working with CRUD operations)](https://laravel.com/docs/7.x/controllers#resource-controllers).
 - [Validation](https://laravel.com/docs/7.x/validation#introduction) 
 - [Seeding tables with test data](https://laravel.com/docs/7.x/seeding#writing-seeders)
+
+##
+Application expects mysql database named "db" to be found on localhost and have functional seeder for populating the table "contacts" with fake data for testing purposes.
+For initialising the application tables and pupulating them with test data, it is recommended to use command: 
+
+- php artisan migrate:fresh --seed 
+
+For user to be able to use the application, he must open an account first, providing valid credentials. All users have acces to listing, creating, updating and deleting contacts from the database.
