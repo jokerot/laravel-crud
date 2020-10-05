@@ -21,3 +21,4 @@ For initialising the application tables and pupulating them with test data, it i
 - php artisan migrate:fresh --seed 
 
 For user to be able to use the application, he must open an account first, providing valid credentials. All users have acces to listing, creating, updating and deleting contacts from the database.
+Any of the columns can be sorted in ascending or descending order.
