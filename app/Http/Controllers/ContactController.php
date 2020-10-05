@@ -26,7 +26,7 @@ class ContactController extends Controller
     public function index(Request $request)
     {
         if ($request->get('orderBy')) {
-            $contacts = Contact::orderBy($request->get('orderBy'))->paginate(10);
+            $contacts = Contact::orderBy($request->get('orderBy'), $request->get('direction') )->paginate(10);
     } else {
             $contacts = Contact::paginate(10);
         }
